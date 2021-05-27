@@ -1,10 +1,11 @@
-def print_hi(name):
+import day2
 
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def main():
+    day2.solve(12,20,8)
 
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    main()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
